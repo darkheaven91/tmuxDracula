@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
+All instructions can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux)..
 
 ## Configuration
 
