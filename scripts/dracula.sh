@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+q#!/usr/bin/env bash
 # setting the locale, some users have issues with different locales, this forces the correct one
 export LC_ALL=en_US.UTF-8
 
@@ -145,7 +145,7 @@ main()
       fi
 
     elif [[ $plugin = "get-ip" ]]; then
-      IFS=' ' read -r -a colors  <<< $(get_tmux_option "@dracula-getip-colors" "green dark_gray")
+      IFS=' ' read -r -a colors  <<< $(get_tmux_option "@dracula-getip-colors" "red dark_gray")
       #tmux set-option -g status-right-length 50
       script="#($current_dir/get-ip.sh)"
 
